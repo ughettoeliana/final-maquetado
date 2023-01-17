@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Contactanos</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul class="navbar-left">
+        <li class="nav-item"><a href="index.html">INICIO</a></li>
+        <li class="nav-item"><a href="#about-ba">SOBRE BA</a></li>
+        <li class="nav-item"><a href="contact.html">CONTACTANOS</a></li>
+        <li class="nav-item"><a href="#about-us">NOSOTROS</a></li>
+      </ul>
+    </nav>
+    <header></header>
+    <main id="contact">
+      <section class="contact-section">
+        <h1 class="title contact-title">Contactanos</h1>
+        <div class="contact-div">
+          <form action="" class="contact">
+            <!-- 
+            <label for="input-info">
+              <input
+                id="input-info"
+                type="radio"
+                name="contacto"
+                value="info"
+              />Quiero más información
+            </label> -->
+            <!-- 
+            -->
+            <label for="fname">Nombre</label>
+            <input
+              id="fname"
+              type="text"
+              placeholder="Nombre"
+              name="first-name"
+            />
+            <label for="lname">Apellido</label>
+            <input
+              id="lname"
+              type="text"
+              placeholder="Apellido"
+              name="last-name"
+            />
+            <label for="phone-number">Número de teléfono</label>
+            <input
+              id="phone-number"
+              type="number"
+              placeholder="Numero de telefono"
+              name="phone-number"
+            />
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="Email" name="email" />
+            <textarea
+              id="textarea"
+              name="extra-comment"
+              rows="4"
+              placeholder="Agrega un comentario"
+            ></textarea>
+            <div class="radioButtons">
+              <p>¿Porqué nos contactas?</p>
+
+              <label>
+                <input type="radio" id="contacto" name="contacto" />
+                Quiero más información
+              </label>
+              <label
+                ><input type="radio" name="contacto" value="tramites" />
+                Necesito ayuda con trámites
+              </label>
+              <label
+                ><input type="radio" name="contacto" value="actualizaciones" />
+                Me gustaria recibir actualizaciones de la Ciudad
+              </label>
+            </div>
+            <input type="submit" value="Enviar" class="sendBtn" />
+          </form>
+        </div>
+      </section>
+      <footer id="about-us" class="footer">
+        <ul class="underline">
+          <li class="footer-item"><a>Buenos Aires ciudad</a></li>
+          <li class="footer-item">
+            <a>Que tenes que saber antes de visitarnos</a>
+          </li>
+          <li class="footer-item"><a>Ayuda</a></li>
+          <li class="footer-item"><a>Terminos y condiciones</a></li>
+        </ul>
+        <hr />
+        <ul>
+          <li class="footer-item">Alumno: Ughetto Eliana</li>
+          <li class="footer-item">Materia: Maquetado y Desarrolo Web</li>
+          <li class="footer-item">Profesora: Mabel García</li>
+          <li class="footer-item">Cursada: 2021</li>
+        </ul>
+      </footer>
+    </main>
+  </body>
+</html>

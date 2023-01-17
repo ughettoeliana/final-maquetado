@@ -1,0 +1,11 @@
+
+.nav-item {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+
+.title {
+  font-size: 62px;
+}
