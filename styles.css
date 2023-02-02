@@ -21,10 +21,17 @@
 }
 
 .nav-menu {
+  background-color: #ffb159;
   display: flex;
   flex-direction: column;
   padding: 20px;
   min-height: 100vh;
+  position: relative;
+  left: 100%;
+}
+
+.nav-menu-visible{
+  left: 0;
 }
 
 .nav-toggle{
