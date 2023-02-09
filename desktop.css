@@ -1,3 +1,7 @@
+.nav-menu-invisible{
+  display: block;
+}
+
 .nav-menu{
   flex-direction: row;
   padding: 0px;
