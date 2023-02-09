@@ -20,26 +20,33 @@
   background-color: #ffb159;
 }
 
+.text-align-right{
+  text-align: right;
+}
+.nav-menu-invisible{
+  display: none;
+}
+
+.nav-menu-visible{
+  display: block;
+  transition-duration: 500ms;
+}
+
 .nav-menu {
   background-color: #ffb159;
   display: flex;
   flex-direction: column;
   padding: 20px;
   min-height: 100vh;
-  position: relative;
-  left: 100%;
-}
-
-.nav-menu-visible{
-  left: 0;
 }
 
 .nav-toggle{
+  cursor: pointer;
   background: none;
   border: none;
   font-size: 30px;
   padding: 0 20px;
-  line-height: 30px;
+  /* line-height: 30px; */
 }
 
 .nav-item {
@@ -164,7 +171,7 @@ section {
   line-height: 1.7em;
 }
 
-/* contact html css */
+/* contact html styles */
 
 #contact {
   background-color: #f8f8f8;
@@ -247,6 +254,13 @@ textarea {
   border-radius: 5px;
   width: 120px;
 }
+
+/* sobre-ba html styles */
+
+
+
+
+
 
 @media screen and (min-width: 576px) {
   .footer {
