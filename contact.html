@@ -5,12 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/styles.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 768px)"
+      href="desktop.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/f26ff381a5.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Contactanos</title>
   </head>
   <body>
@@ -20,30 +29,18 @@
       </div>
       <div class="nav-menu-invisible">
         <ul class="nav-menu">
-          <li class="nav-item"><a href="">INICIO</a></li>
-          <li class="nav-item"><a href="sobre-ba.html">SOBRE BA</a></li>
+          <li class="nav-item"><a href="index.html">INICIO</a></li>
+          <li class="nav-item"><a href="sobre-ba.html#main">SOBRE BA</a></li>
           <li class="nav-item"><a href="contact.html">CONTACTANOS</a></li>
-          <li class="nav-item"><a href="#about-us">NOSOTROS</a></li>
+          <li class="nav-item"><a href="info.html">INFORMACIÓN</a></li>
         </ul>
       </div>
     </nav>
-    <header></header>
     <main id="contact">
       <section class="contact-section">
-        <h1 class="title contact-title">Contactanos</h1>
+        <h1 class="contact-title">Contactanos</h1>
         <div class="contact-div">
           <form action="" class="contact">
-            <!-- 
-            <label for="input-info">
-              <input
-                id="input-info"
-                type="radio"
-                name="contacto"
-                value="info"
-              />Quiero más información
-            </label> -->
-            <!-- 
-            -->
             <label for="fname">Nombre</label>
             <input
               id="fname"
@@ -75,7 +72,6 @@
             ></textarea>
             <div class="radioButtons">
               <p>¿Porqué nos contactas?</p>
-
               <label>
                 <input type="radio" id="contacto" name="contacto" />
                 Quiero más información
@@ -111,5 +107,6 @@
         </ul>
       </footer>
     </main>
+    <script src="index.js"></script>
   </body>
 </html>
