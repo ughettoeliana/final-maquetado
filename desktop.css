@@ -20,3 +20,17 @@
 .title {
   font-size: 62px;
 }
+
+/* desktop styles for sobre-ba html */
+
+.short-ba-description-text{
+  text-align: center;
+}
+
+.cards{
+  grid-template-columns: repeat(3, 1fr);
+  margin: 1em auto;
+}
+
+
+/* content: url("/path/here/to/image.png"); */
