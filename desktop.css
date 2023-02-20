@@ -12,13 +12,15 @@
   display: none;
 }
 
-.nav-item {
-  display: inline-block;
-  padding: 8px 12px;
-}
 
 .title {
-  font-size: 62px;
+  font-size: 50px;
+}
+
+/* desktop styles for index html */
+
+.display-flex{
+  flex-direction: row;
 }
 
 /* desktop styles for sobre-ba html */
@@ -31,6 +33,3 @@
   grid-template-columns: repeat(3, 1fr);
   margin: 1em auto;
 }
-
-
-/* content: url("/path/here/to/image.png"); */
