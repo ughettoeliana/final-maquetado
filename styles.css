@@ -10,7 +10,7 @@
   width: 100%;
   min-height: 100vh;
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-    url(./images/banner-obelisco-mobile.jpeg);
+    url(./images/banner-obelisco.jpeg);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -46,7 +46,6 @@
   border: none;
   font-size: 30px;
   padding: 0 20px;
-  /* line-height: 30px; */
 }
 
 .nav-item {
@@ -116,6 +115,31 @@
   background: #feb220;
   transition: 1s;
 }
+
+/* index html styles */
+
+.display-flex {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 0 1em;
+  margin: 1em auto;
+}
+
+.display-flex .flex-50 {
+  flex: 50%;
+}
+
+.display-flex .map-container {
+  flex: 50%;
+}
+
+.display-flex .map-container iframe {
+  max-width: 100%;
+  height: auto;
+}
+
+/* info html styles */
 
 .info-section {
   padding: 0 1em;
@@ -274,11 +298,12 @@ textarea {
   grid-template-columns: repeat(1, 1fr);
   grid-auto-rows: auto;
   grid-gap: 1rem;
-  margin: 1em 0;
+  margin: 1em;
 }
 
 .card {
-  margin: 0.5rem 1rem;
+  max-width: 500px;
+  margin: 0.5rem auto;
   background-color: #fff;
   border-radius: 0.5rem;
   box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
@@ -296,7 +321,16 @@ textarea {
 
 .card .card-link {
   text-decoration: none;
-} 
+}
+
+/* gracias html styles */
+
+.thanks-section {
+  max-width: 70%;
+  margin: 1em auto;
+  text-align: center;
+}
+
 
 @media screen and (min-width: 576px) {
   .footer {
