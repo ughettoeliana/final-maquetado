@@ -10,7 +10,7 @@
   width: 100%;
   min-height: 100vh;
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-    url(./images/banner-obelisco.jpeg);
+    url(images/banner-obelisco2.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -90,7 +90,7 @@
 }
 
 .title {
-  font-size: 20px;
+  font-size: 35px;
 }
 
 .title p {
@@ -202,7 +202,7 @@ section {
   width: 100%;
   min-height: 100vh;
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-    url(./images/background-contact-form.jpeg);
+    url(images/background-contact-form.jpeg);
   background-size: cover;
   background-position: center;
   position: relative;
