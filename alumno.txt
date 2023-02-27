@@ -1,0 +1,10 @@
+Alumno: Eliana Carolina Ughetto
+Email: eliana.ughetto@davinci.edu.ar
+DNI: 43.616.367
+Profesor: Mabel Garcia
+Periodo de cursada: 1° cuatrimestre del 2021
+Comisión: A 
+Turno: Tarde
+Fecha de examen final: 07/03/2023
+
+URL: https://baires-turismo.000webhostapp.com/index.html
